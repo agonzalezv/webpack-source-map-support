@@ -13,10 +13,10 @@
   "license": "ISC",
   "devDependencies": {
     "jest": "^20.0.4",
-    "webpack": "^3.1.0"
+    "webpack": "^4.27.1"
   },
   "peerDependencies": {
-    "webpack": "^1.13.3"
+    "webpack": "^4.27.1"
   },
   "repository": {
     "type": "git",

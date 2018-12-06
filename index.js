@@ -2,7 +2,7 @@ const webpack = require('webpack')
 
 const plugin = function () {
   return new webpack.BannerPlugin({
-    banner: 'require("source-map-support").install();',
+    banner: "import 'source-map-support/register'",
     raw: true,
     entryOnly: false
   })
